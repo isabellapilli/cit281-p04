@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/isabellapilli/cit281-p04/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## PROJECT 3
 
 ```markdown
-Syntax highlighted code block
+Learning Objectives:
 
-# Header 1
-## Header 2
-### Header 3
+1. Gain experience interpreting functional descriptions
+   and specifications to complete an assignment
+2. Gain experience breaking a project into manageable components
+3. Gain experience writing and executing non-web server 
+   Node.js JavaScript code using VSCode
+4. Practice creating and using code modules
+5. Practice using modern JavaScript syntax
+6. Gain experience writing and executing Node.js 
+   REST API server using VSCode
+7. Gain experience using Fastify with the GET
+   verb, routes, and route parameters
+8. Gain experience working with static data
+9. Gain experience testing code module without using a web server
+10. Gain experience using Postman to test web server routes
+11. Gain experience working with JSON
+12. Extra credit: Gain experience using Fastify 
+    with POST, PUT, and DELETE verbs
 
-- Bulleted
-- List
+Overview: 
 
-1. Numbered
-2. List
+You will be creating a REST API that works with a "data" source 
+of questions and answers. You will create all of the code to work 
+with the data source using a code module, and test the code module 
+code using provided testing code. You will also create a Node.js 
+REST API to handle the GET verb. 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Technologies Used:
+- VS Code
+- Terminal
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isabellapilli/cit281-p04/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### What I Learned:
+In this project I was able to create a data file, a code module, and a web server. The data file held a 3 different question and answers, the code module had six different functions: *getQuestions(), getAnswers(), getQuestionsAnswers(), getQuestion(number = ""), getAnswer(number = ""),* and *getQuestionsAnswers(number = "")* which I tested using the *test()* function. I then created a REST API server which used a GET verb with 7 routes. 
 
-### Support or Contact
+### Files from Project 4:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[ss1](project4.png)
